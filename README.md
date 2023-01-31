@@ -1,6 +1,10 @@
 # currency-converter
 
-https://paweldzi.github.io/currency-converter/
+## Languages
+HTML, CSS, JavaScript
+
+## Demo 
+https://paweldzi.github.io/currency-converter-react/
 
 # Getting Started with Create React App
 
