@@ -1,5 +1,10 @@
 # currency-converter
 
+## About the application
+You can convert currencies
+
+![gif](https://im.ezgif.com/tmp/ezgif-1-3344275737.gif)
+
 ## Languages
 HTML, CSS, JavaScript
 
