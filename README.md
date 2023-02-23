@@ -3,7 +3,7 @@
 ## About the application
 You can convert currencies
 
-![gif](https://im.ezgif.com/tmp/ezgif-1-3344275737.gif)
+![gif](https://i.ibb.co/hWTXg5X/currency-Converter.gif)
 
 ## Languages
 HTML, CSS, JavaScript, React, BEM
