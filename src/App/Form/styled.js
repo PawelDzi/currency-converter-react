@@ -1,4 +1,6 @@
-.form {
+import styled from "styled-components";
+
+export const Wrapper = styled.form`
     border: 1px solid #000000;
     border-radius: 10px;
     padding: 20px;   
@@ -10,12 +12,12 @@
     left: 50%;
     transform: translateY(-50%);
     transform: translateX(-50%);
-}
+`;
 
-.button {
+export const Button = styled.button`
     cursor: pointer;
     background-color: #007497;
     border: 1px solid #000;
     border-radius: 5px;
     color: white;
-}
+`;
