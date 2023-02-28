@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.form`
-    border: 1px solid #000000;
+    border: 1px solid ${({theme}) => theme.color.black};
     border-radius: 10px;
     padding: 20px;   
-    background-color: #f3f3f3;
+    background-color: ${({theme}) => theme.color.concrete};
     position: absolute;
     max-width: 400px;
     width: 100%;
@@ -16,8 +16,8 @@ export const Wrapper = styled.form`
 
 export const Button = styled.button`
     cursor: pointer;
-    background-color: #007497;
-    border: 1px solid #000;
+    background-color: ${({theme}) => theme.color.allports};
+    border: 1px solid ${({theme}) => theme.color.black};
     border-radius: 5px;
-    color: white;
+    color: ${({theme}) => theme.color.white};
 `;
