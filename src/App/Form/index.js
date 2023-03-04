@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { Result } from "./Result"
 import { Clock } from "./Clock";
-import { Wrapper, Button, WrapperSelect, Loading, Accident } from "./styled";
+import { Wrapper, Button, WrapperSelect, WrapperInput, Loading, ErrorMessage } from "./styled";
 import { useRatesData } from "./useRatesData"
 
 export const Form = () => {
-  const [currency, setCurrency] = useState();
+  const [currency, setCurrency] = useState("USD");
   const [amount, setAmount] = useState("");
   const [result, setResult] = useState();
   const ratesData = useRatesData();
@@ -37,11 +37,11 @@ export const Form = () => {
         )
         : (
           ratesData.state === "error" ? (
-            <Accident>
+            <ErrorMessage>
               Hmm... Coś poszło nie tak. Sprawdź połączenie z internetem. <br />
               Jeśli masz połączenie z internetem, musi być to błąd z naszej strony. <br />
               Przepraszamy za niedogodności i zapraszamy później.
-            </Accident>
+            </ErrorMessage>
           ) : (
             <p>
               <fieldset>
@@ -65,7 +65,7 @@ export const Form = () => {
                     </WrapperSelect>
                     <p>
                       Kwota: {" "}
-                      <input
+                      <WrapperInput
                         value={amount}
                         onChange={({ target }) => setAmount(target.value)}
                         required
