@@ -21,3 +21,17 @@ export const Button = styled.button`
     border-radius: 5px;
     color: ${({theme}) => theme.color.white};
 `;
+
+export const Loading = styled.p`
+    color: ${({theme}) => theme.color.teal};
+    padding: 20px 20px 20px 50px;
+`;
+
+export const Accident = styled.p`
+    color: ${({theme}) => theme.color.torchRed};
+    padding: 20px;
+`;
+
+export const WrapperSelect = styled.select`
+    width: 203px;
+`;

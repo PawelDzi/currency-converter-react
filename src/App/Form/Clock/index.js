@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Day } from "./styled";
 import { useCurrentDate } from "./useCurrentDate"
 

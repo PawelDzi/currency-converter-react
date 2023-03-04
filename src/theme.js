@@ -5,5 +5,7 @@ export const theme = {
         allports: "#007497",
         white: "#FFFFFF",
         scorpion: "#575757",
+        teal: "#008080",
+        torchRed: "#FF002E",
     },
 };
